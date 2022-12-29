@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>TO DO List</title>
+</head>
+<body>
+  <h1 class="heading">TO DO LIST</h1>
+
+  <div class="priority_btns">
+    <button class="high">HIGH</button>
+    <button class="moderate">MODERATE</button>
+    <button class="low">LOW</button>
+
+    <select name="typeOfPriority" id="select-priority">
+      <option value="select">Select</option>
+      <option value="high">High</option>
+      <option value="moderate">moderate</option>
+      <option value="low">low</option>
+    </select>
+  </div>
+
+  <form class="form">
+    <input type="text" placeholder="write here" class="input">
+    <button class="add_btn">Add</button>
+  </form>
+  
+  <ul class="unordered_list">
+    <li>
+      <div class="flex">
+        <p>my first todo</p>
+        <div>
+        <button class="delete_btn">Delete</button>
+        <button class="edit_btn">Edit</button>
+      </div>
+      </div>
+    </li>
+  </ul>
+
+
+  <script src="script.js"></script>
+</body>
+</html>

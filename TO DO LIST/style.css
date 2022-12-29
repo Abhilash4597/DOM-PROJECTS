@@ -1,0 +1,22 @@
+.flex {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+ul {
+  list-style: none;
+}
+
+.heading {
+  text-align: center;
+}
+
+.form {
+  text-align: center;
+}
+
+.priority_btns {
+  text-align: center;
+  padding-bottom: 2rem;
+}
