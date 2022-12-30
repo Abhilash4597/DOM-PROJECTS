@@ -6,6 +6,7 @@
 
 ul {
   list-style: none;
+  text-align: center;
 }
 
 .heading {
@@ -20,3 +21,11 @@ ul {
   text-align: center;
   padding-bottom: 2rem;
 }
+
+.display_none {
+  display: none;
+}
+
+/* .delete_btn {
+  padd
+} */
